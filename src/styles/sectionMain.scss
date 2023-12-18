@@ -1,0 +1,43 @@
+.section-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #049ef4,
+    #82b1f6,
+    #b8c7f8,
+    #dee0f9,
+    #fbfbfb
+  );
+  .title-main {
+    font-size: 45px;
+    color: #000;
+  }
+
+  .subtitle-main {
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    padding: 10px;
+  }
+
+  .link-main {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-main {
+    height: 450px;
+    .subtitle-main {
+      text-align: center;
+    }
+  }
+}

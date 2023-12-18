@@ -1,0 +1,53 @@
+.section-carrusel {
+    width: 100%; 
+    .product-carrusel {
+    width: 62%;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    .details {
+        max-width: 500px;
+        h2 {
+            font-size: 30px;
+            color: #000;
+        }
+
+        p{
+            font-size: 18px;
+            color: #494949;
+        }
+        strong {
+            font-size: 20px;
+            color: #39b54a;
+        }
+    }
+}
+}
+
+
+
+@media (max-width: 968px) {
+    .section-carrusel {
+        width: 100%;
+        .product-carrusel {
+        margin: 0;
+        width: 100%;
+        
+    }
+    }
+    
+}
+
+@media (max-width: 530px) {
+    .section-carrusel {
+
+        .product-carrusel {
+            flex-direction: column;
+        
+    }
+    }
+    
+}
