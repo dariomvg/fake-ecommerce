@@ -21,17 +21,13 @@
 
 1. Abre una terminal en el directorio del proyecto.
 
-2. Instala las dependencias utilizando npm o yarn:
+2. Instala las dependencias utilizando npm:
 
-`npm install` ó `yarn install`
+`npm install`
 
-3. Instalar dependencias adicionales (react-router-dom)
+###Inicia la aplicación:
 
-`npm install react-router-dom` ó `yarn add react-router-dom`
-
-### Inicia la aplicación:
-
-1. ejecuta: `npm start`
+1. ejecuta: `npm run dev`
 
 
 ##### La aplicación debería abrirse en tu navegador predeterminado en http://localhost:3000/.
