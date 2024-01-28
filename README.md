@@ -25,7 +25,7 @@
 
 `npm install`
 
-###Inicia la aplicación:
+### Inicia la aplicación:
 
 1. ejecuta: `npm run dev`
 
